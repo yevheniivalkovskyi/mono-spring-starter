@@ -1,7 +1,7 @@
-package io.github.zevlavy.service;
+package com.github.yevheniivalkovskyi.service;
 
-import io.github.zevlavy.dto.StatementItem;
-import io.github.zevlavy.dto.UserInfoDto;
+import com.github.yevheniivalkovskyi.dto.StatementItem;
+import com.github.yevheniivalkovskyi.dto.UserInfoDto;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -11,8 +11,8 @@ import java.time.LocalTime;
 import java.time.ZoneId;
 import java.util.Optional;
 
-import static io.github.zevlavy.util.Constants.GET_PERSONAL_CLIENT_INFO;
-import static io.github.zevlavy.util.Constants.GET_TRANSACTION_HISTORY;
+import static com.github.yevheniivalkovskyi.util.Constants.GET_PERSONAL_CLIENT_INFO;
+import static com.github.yevheniivalkovskyi.util.Constants.GET_TRANSACTION_HISTORY;
 
 
 @Service

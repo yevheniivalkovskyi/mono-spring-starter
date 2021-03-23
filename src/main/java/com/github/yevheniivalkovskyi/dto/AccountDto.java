@@ -1,4 +1,4 @@
-package io.github.zevlavy.dto;
+package com.github.yevheniivalkovskyi.dto;
 
 
 import lombok.Data;

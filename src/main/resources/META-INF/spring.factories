@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.github.zevlavy.config.MonoApiAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.github.yevheniivalkovskyi.config.MonoApiAutoConfiguration

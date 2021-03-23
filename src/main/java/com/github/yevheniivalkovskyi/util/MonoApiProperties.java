@@ -1,4 +1,4 @@
-package io.github.zevlavy.util;
+package com.github.yevheniivalkovskyi.util;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package io.github.zevlavy.config;
+package com.github.yevheniivalkovskyi.config;
 
 import org.springframework.http.HttpRequest;
 import org.springframework.http.client.ClientHttpRequestExecution;

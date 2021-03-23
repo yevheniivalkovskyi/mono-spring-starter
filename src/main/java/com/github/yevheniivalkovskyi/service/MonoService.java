@@ -1,7 +1,7 @@
-package io.github.zevlavy.service;
+package com.github.yevheniivalkovskyi.service;
 
-import io.github.zevlavy.dto.StatementItem;
-import io.github.zevlavy.dto.UserInfoDto;
+import com.github.yevheniivalkovskyi.dto.StatementItem;
+import com.github.yevheniivalkovskyi.dto.UserInfoDto;
 
 import java.time.LocalDate;
 import java.util.Optional;

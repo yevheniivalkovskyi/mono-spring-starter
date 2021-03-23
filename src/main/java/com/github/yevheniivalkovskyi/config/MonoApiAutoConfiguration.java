@@ -1,8 +1,8 @@
-package io.github.zevlavy.config;
+package com.github.yevheniivalkovskyi.config;
 
-import io.github.zevlavy.service.MonoService;
-import io.github.zevlavy.service.MonoServiceImpl;
-import io.github.zevlavy.util.MonoApiProperties;
+import com.github.yevheniivalkovskyi.service.MonoService;
+import com.github.yevheniivalkovskyi.service.MonoServiceImpl;
+import com.github.yevheniivalkovskyi.util.MonoApiProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
