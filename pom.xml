@@ -5,7 +5,7 @@
 
 	<groupId>com.github.yevheniivalkovskyi</groupId>
 	<artifactId>mono-spring-starter</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>Spring Boot starter for mono api</description>
 	<packaging>jar</packaging>
 

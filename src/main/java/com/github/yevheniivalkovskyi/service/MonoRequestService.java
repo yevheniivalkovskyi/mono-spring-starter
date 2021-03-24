@@ -14,6 +14,7 @@ public class MonoRequestService
     MonoRequestService( RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
+
     public <T> Optional<T> request(String endpoint, Class<T> responseType) {
         ResponseEntity<T> response = restTemplate.getForEntity(endpoint, responseType);
         return Optional.ofNullable(response.getBody());

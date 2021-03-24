@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public interface MonoService
 {
-    Optional<UserInfoDto> getUserInfo( String privateToken);
+    Optional<UserInfoDto> getUserInfo();
 
-    Optional<StatementItem[]> getUserStatement( String privateToken, String accountId, LocalDate from, LocalDate to );
+    Optional<StatementItem[]> getUserStatement( String accountId, LocalDate from, LocalDate to );
 }

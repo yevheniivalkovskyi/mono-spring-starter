@@ -26,13 +26,13 @@ public class MonoServiceImpl implements MonoService
     }
 
     @Override
-    public Optional<UserInfoDto> getUserInfo( String privateToken )
+    public Optional<UserInfoDto> getUserInfo()
     {
         return monoRequestService.request(GET_PERSONAL_CLIENT_INFO, UserInfoDto.class);
     }
 
     @Override
-    public Optional<StatementItem[]> getUserStatement( String privateToken, String accountId, LocalDate from, LocalDate to )
+    public Optional<StatementItem[]> getUserStatement(String accountId, LocalDate from, LocalDate to )
     {
         LocalDateTime fromTime =  from.atTime(LocalTime.MIN);
         LocalDateTime toTime = to.atTime(LocalTime.MAX);
